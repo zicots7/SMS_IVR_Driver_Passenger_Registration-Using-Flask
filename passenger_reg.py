@@ -513,7 +513,7 @@ def handle_whatsapp(phone_number, message):
     if not profile:
         if not user_state:
             response.message(
-                "👋 Welcome to RideSafe Local!\n\n"
+                "👋 Welcome to Safe Drive !\n\n"
                 "Let's create your profile 📝\n"
                 "Please enter a 4-digit profile name"
             )
